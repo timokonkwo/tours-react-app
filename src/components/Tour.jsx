@@ -1,7 +1,15 @@
-const Tour = (props) => {
-    console.log(props)
+const Tour = ({id, name, image, info, price }) => {
+    
     return (
-        <h3></h3>
+        <article className="single-tour">
+            <img src={image} alt={name} />
+
+            <footer>
+                <div className="tour-info">
+                    <h4>{name}</h4>
+                </div>
+            </footer>
+        </article>
     )
 }
 
