@@ -1,6 +1,7 @@
-const Tour = () => {
+const Tour = (props) => {
+    console.log(props)
     return (
-        <h3>Tour Component</h3>
+        <h3></h3>
     )
 }
 
