@@ -12,6 +12,7 @@ const Tour = ({id, name, image, info, price }) => {
                 <p>
                     {info}
                 </p>
+                <button className="delete-btn">Not interested</button>
             </footer>
         </article>
     )
