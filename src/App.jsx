@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import Tours from "./components/Tours";
 import Loading from "./components/Loading";
 import { useEffect } from "react";
